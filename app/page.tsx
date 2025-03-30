@@ -6,13 +6,14 @@ import { ServicesSection } from '../components/home/services-section/services-se
 import { PropertyCarousel } from '../components/home/property/property';
 import { ValuesContactSection } from '../components/home/values-contact/values-contact-section';
 import { ExclusiveListings } from '../components/home/exclusive-listings/exclusive-listings';
+import LogoShowcase from '../components/home/logo-showcase/logo-showcase';
+import MrLHA from '../components/home/mrlha/mrlha';
 
 
 
 export default function Home() {
   return (
     <div>
-      <Lead/>
       <HeroSection/>
       <SearchBar/>
       <WhyChooseUs/>
@@ -20,6 +21,8 @@ export default function Home() {
       <PropertyCarousel/>
       <ValuesContactSection/>
       <ExclusiveListings/>
+      <LogoShowcase/>
+      <MrLHA/>
     </div>
   );
 }
