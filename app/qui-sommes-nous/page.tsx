@@ -5,6 +5,7 @@ import PhilosophySection from "@/components/qui-sommes-nous/philosophy/philosoph
 import TeamSection from "@/components/qui-sommes-nous/team/team-section";
 import LogoShowcase from "@/components/home/logo-showcase/logo-showcase";
 import TestimonialsSection from '../../components/qui-sommes-nous/testimonials/testimonials-section';
+import BlogSection from '../../components/qui-sommes-nous/blog/blog-section';
 
 
 export default function QuiSommesNous(){
@@ -17,6 +18,7 @@ export default function QuiSommesNous(){
             <TeamSection/>
             <LogoShowcase/>
             <TestimonialsSection/>
+            <BlogSection/>
         </div>
     );
 }

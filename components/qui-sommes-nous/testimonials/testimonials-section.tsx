@@ -40,13 +40,8 @@ export default function TestimonialsSection() {
   }
 
   return (
-    <section className="py-12 px-4 max-w-6xl mx-auto">
-      <Card className="border rounded-3xl shadow-sm">
-        <CardHeader>
-          <h2 className="text-3xl font-bold text-center">Ce que disent nos clients</h2>
-        </CardHeader>
-        <CardContent className="space-y-8">
-          <div className="flex items-start gap-4">
+    <section className="py-12 px-4 max-w-6xl mx-auto my-6 flex flex-col lg:flex-row justify-center gap-4 items-center border border-[#999999] rounded-3xl shadow-sm">
+        <div className="flex items-start gap-4">
             <div className="flex -space-x-2">
               <Avatar className="border-2 border-background">
                 <AvatarImage src="/assets/images/illustrations/qui-sommes-nous/user1.png" alt="Avatar" />
@@ -67,7 +62,11 @@ export default function TestimonialsSection() {
             </div>
             <span className="text-muted-foreground text-sm">+ 10 commentaires</span>
           </div>
-
+      <Card className="border-none">
+        <CardHeader>
+          <h2 className="text-3xl font-bold text-start">Ce que disent nos clients</h2>
+        </CardHeader>
+        <CardContent className="space-y-8">
           <div className="flex gap-4 items-start">
             <Quote className="text-muted-foreground shrink-0 mt-1" size={24} />
             <p className="text-lg text-muted-foreground">{testimonials[currentTestimonial].quote}</p>
