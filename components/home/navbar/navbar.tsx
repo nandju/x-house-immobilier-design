@@ -64,16 +64,16 @@ export function Navbar() {
         </nav>
 
         {/* Assistance Button */}
-        <div className="hidden md:flex md:items-center md:gap-2">
-        <Image
-                src="/assets/images/user.png" // Remplace par le chemin de ton image
-                alt="Avatar"
-                width={24} // Ajuste la taille
-                height={24}
-                className="h-6 w-6"
-            />
-            <span className="text-sm font-medium text-secondary">Assistance M. LHA</span>
-        </div>
+        <Link href="/assistance" className="hidden md:flex md:items-center md:gap-2 hover:opacity-80 transition">
+          <Image
+            src="/assets/images/user.png"
+            alt="Avatar"
+            width={24}
+            height={24}
+            className="h-6 w-6"
+          />
+          <span className="text-sm font-medium text-secondary">Assistance M. LHA</span>
+        </Link>
 
         {/* Mobile Navigation */}
         <Sheet>
@@ -85,7 +85,7 @@ export function Navbar() {
           </SheetTrigger>
           <SheetContent side="right">
             <div className="grid gap-6 py-6">
-            <div className="flex items-center gap-2">
+            <Link href="/assistance" className="flex items-center gap-2">
             <Image
                 src="/assets/images/user.png" // Remplace par le chemin de ton image
                 alt="Avatar"
@@ -94,7 +94,7 @@ export function Navbar() {
                 className="h-6 w-6"
             />
             <span className="text-sm font-medium text-secondary">Assistance M. LHA</span>
-            </div>
+            </Link>
               <div className="grid gap-3">
                 {navItems.map((item) => (
                   <Link
