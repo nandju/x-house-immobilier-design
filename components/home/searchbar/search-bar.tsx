@@ -11,7 +11,7 @@ import { Slider } from "@/components/ui/slider"
 export function SearchBar() {
   return (
     <div className="mx-auto w-full max-w-6xl rounded-full bg-white border-2 px-6 py-3 my-10 shadow-lg">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col  md:flex-row items-center justify-between">
         <div className="text-lg font-medium">Trouver mon logement ici</div>
 
         <Sheet>
