@@ -14,8 +14,8 @@ export default function Footer() {
           <div className="space-y-8">
             {/* Logo and brand */}
             <div className="flex items-center gap-2">
-              <Image src="/assets/images/icone.png" alt="Luxury Home Abidjan Logo" width={40} height={40} />
-              <span className="text-lg font-semibold">LUXURY HOME ABIDJAN</span>
+              <Image src="/assets/images/d-icone.png" alt="Logo" width={120} height={120} />
+              <span className="text-lg font-semibold">Logo Entreprise Country</span>
             </div>
 
             {/* Contact info */}
@@ -31,7 +31,7 @@ export default function Footer() {
                 <div className="w-8 h-8  flex items-center justify-center">
                   <Mail size={16} />
                 </div>
-                <span>info@luxuryhomeabidjan.com</span>
+                <span>info@logo.com</span>
               </div>
 
               <div className="flex items-center gap-3 border rounded-full w-80 p-2">
@@ -108,7 +108,7 @@ export default function Footer() {
 
         {/* Copyright and legal */}
         <div className="flex flex-col md:flex-row justify-between text-sm text-gray-400">
-          <div>© 2025 Lunion-Lab.com Tous droits réservés.</div>
+          <div>© 2025 Yelema.com Tous droits réservés.</div>
           <div className="flex gap-4 mt-4 md:mt-0">
             <Link href="/conditions" className="hover:text-white transition-colors">
               Conditions générales

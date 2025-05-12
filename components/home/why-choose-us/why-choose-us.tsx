@@ -7,48 +7,44 @@ export function WhyChooseUs() {
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           {/* Left Content */}
           <div className="flex flex-col justify-center space-y-6 px-4 text-white lg:pr-12">
-            <h2 className="text-4xl font-bold leading-tight tracking-tighter md:text-5xl">Pourquoi nous choisir ?</h2>
+            <h2 className="text-4xl font-bold leading-tight tracking-tighter md:text-5xl">Qui sommes-nous ?</h2>
 
             <div className="space-y-4 text-white/90">
               <p>
-                Parce que la Côte d&apos;Ivoire connaît un engouement et une effervescence immobilière incroyable, une
-                demande toujours grandissante : vous proposer les meilleurs biens disponibles sur le marché
-                s&apos;inscrit dans notre démarche.
+                X-HOUSE IMMOBILIER est une entreprise ivoirienne engagée dans l'amélioration de l'accès au logement pour tous. Nous croyons en un habitat digne, accessible et durable, adapté aux réalités économiques et sociales de notre pays.
               </p>
 
               <p>
-                Notre éthique est une approche qualitative, esthétique et attentive du bien, afin de vous le proposer au
-                prix juste.
+                Notre mission est de concevoir, promouvoir et livrer des projets immobiliers innovants et abordables, tout en respectant les normes de qualité, de sécurité et d'esthétique.
               </p>
 
               <p>
-                Chez LHA le client passe avant l&apos;agence, nous avons développé une véritable approche conseil, basée
-                sur une expertise aussi bien sur le plan administratif, juridique, que comptable et financier.
+                Forts d'une équipe pluridisciplinaire et expérimentée, nous accompagnons nos clients à chaque étape de leur projet immobilier : de la recherche du bien idéal jusqu’à la livraison finale.
               </p>
 
               <p>
-                Particuliers, professionnels, institutionnels, notre équipe s&apos;engage à vous fournir transparence et
-                confidentialité avant, pendant et après votre projet.
+                Notre vision repose sur la transparence, l’écoute, la proximité et l’excellence. Nous plaçons l’humain au cœur de nos préoccupations pour bâtir ensemble les logements de demain.
               </p>
             </div>
 
             <div className="pt-6">
               <div className="h-px w-full bg-white/20" />
               <div className="pt-6 text-lg font-semibold uppercase tracking-wider">
-                <p>Notre philosophie s&apos;applique à tous nos clients.</p>
-                <p>Notre fierté : votre satisfaction</p>
+                <p>Notre engagement : des logements accessibles et de qualité.</p>
+                <p>Notre fierté : contribuer à améliorer la vie des Ivoiriens.</p>
               </div>
             </div>
           </div>
 
-          {/* Right Image */}
+          {/* Right Video */}
           <div className="relative h-[400px] overflow-hidden rounded-3xl md:h-[500px] lg:h-auto">
-            <Image
-              src="/assets/images/illustrations/page-accueil/choose.png"
-              alt="Luxury villa with pool and modern architecture"
-              fill
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 50vw"
+            <video
+              className="h-full w-full object-cover rounded-3xl"
+              autoPlay
+              loop
+              muted
+              playsInline
+              src="/assets/video/mediaplayer.mp4" // Remplace ceci par ton URL
             />
           </div>
         </div>
@@ -56,4 +52,3 @@ export function WhyChooseUs() {
     </section>
   )
 }
-

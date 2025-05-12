@@ -43,36 +43,36 @@ function ServiceCard({ title, imageSrc, icon }: ServiceCardProps) {
 export function ServicesSection() {
   const services = [
     {
-      title: "Transactions",
+      title: "Visites virtuelles 3D",
       imageSrc: "/assets/images/illustrations/page-accueil/service-1.png",
-      icon: <Building size={20} />,
+      icon: <Home size={20} />,
     },
     {
-      title: "Expertise & Conseils en immobilier",
+      title: "Signature électronique de contrats",
       imageSrc: "/assets/images/illustrations/page-accueil/service-1.png",
       icon: <Briefcase size={20} />,
     },
     {
-      title: "Syndic de copropriété",
+      title: "Consultation juridique en ligne",
       imageSrc: "/assets/images/illustrations/page-accueil/service-1.png",
       icon: <Users size={20} />,
     },
     {
-      title: "Gestion immobilière",
-      imageSrc: "/assets/images/illustrations/page-accueil/service-2.png",
-      icon: <Home size={20} />,
-    },
-    {
-      title: "Opérations / projets immobiliers",
+      title: "Suivi de dossier en temps réel",
       imageSrc: "/assets/images/illustrations/page-accueil/service-2.png",
       icon: <Lightbulb size={20} />,
     },
     {
-      title: "Home Staging",
+      title: "Évaluation automatique de biens",
+      imageSrc: "/assets/images/illustrations/page-accueil/service-2.png",
+      icon: <Building size={20} />,
+    },
+    {
+      title: "Assistance personnalisée par chat vidéo",
       imageSrc: "/assets/images/illustrations/page-accueil/service-2.png",
       icon: <PaintBucket size={20} />,
     },
-  ]
+  ];
 
   return (
     <section className="py-16">
@@ -81,11 +81,17 @@ export function ServicesSection() {
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
           {services.map((service) => (
-            <ServiceCard key={service.title} title={service.title} imageSrc={service.imageSrc} icon={service.icon} />
+            <ServiceCard
+              key={service.title}
+              title={service.title}
+              imageSrc={service.imageSrc}
+              icon={service.icon}
+            />
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }
+
 

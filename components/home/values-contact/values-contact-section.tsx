@@ -10,58 +10,54 @@ export function ValuesContactSection() {
       <div className="container mx-auto px-4">
         {/* Heading */}
         <h2 className="mb-16 text-center text-3xl font-bold leading-tight md:text-4xl lg:text-5xl">
-          LUXURY HOME ABIDJAN, les clés de chez vous
+          X-HOUSE IMMOBILIER, votre agence 100% digitale
           <br />
-          sont chez nous.
+          Trouvez, visitez et gérez vos biens en toute simplicité.
         </h2>
+
 
         {/* Values Cards */}
         <div className="mb-16 grid gap-6 md:grid-cols-3">
-          {/* Transparency Card */}
+          {/* Innovation Card */}
           <div className="rounded-3xl border border-gray-800 p-6">
             <div className="mb-6 flex justify-center">
               <div className="relative h-20 w-20 overflow-hidden rounded-full border-2 border-gray-700">
-                <Image src="/assets/images/user-4.png" alt="Transparency avatar" fill className="object-cover" />
+                <Image src="/assets/images/illustrations/page-accueil/Innovation.jpg" alt="Innovation avatar" fill className="object-cover" />
               </div>
             </div>
-            <h3 className="mb-4 text-center text-xl font-semibold">Transparence</h3>
+            <h3 className="mb-4 text-center text-xl font-semibold">Innovation</h3>
             <p className="text-center text-sm text-gray-400">
-              Notre équipe vous garantit un accès permanent à toutes les étapes clés de vos transactions immobilières.
+              Une plateforme 100% digitale pour simplifier, accélérer et sécuriser vos projets immobiliers.
             </p>
           </div>
 
-          {/* Confidentiality Card */}
+          {/* Accessibilité Card */}
           <div className="rounded-3xl border border-gray-800 p-6">
             <div className="mb-6 flex justify-center">
               <div className="relative h-20 w-20 overflow-hidden rounded-full border-2 border-gray-700">
-                <Image
-                  src="/assets/images/user-3.png"
-                  alt="Confidentiality avatar"
-                  fill
-                  className="object-cover"
-                />
+                <Image src="/assets/images/illustrations/page-accueil/Accessibilité.jpg" alt="Accessibility avatar" fill className="object-cover" />
               </div>
             </div>
-            <h3 className="mb-4 text-center text-xl font-semibold">Confidentialité</h3>
+            <h3 className="mb-4 text-center text-xl font-semibold">Accessibilité</h3>
             <p className="text-center text-sm text-gray-400">
-              Parce que la discrétion est la valeur essentielle au cœur de notre métier, confiez nous en toute sérénité
-              vos projets.
+              Services disponibles 24h/24, partout, depuis votre smartphone ou ordinateur.
             </p>
           </div>
 
-          {/* Availability Card */}
+          {/* Accompagnement digital Card */}
           <div className="rounded-3xl border border-gray-800 p-6">
             <div className="mb-6 flex justify-center">
               <div className="relative h-20 w-20 overflow-hidden rounded-full border-2 border-gray-700">
-                <Image src="/assets/images/user-2.png" alt="Availability avatar" fill className="object-cover" />
+                <Image src="/assets/images/illustrations/page-accueil/Accompagnementdigital.jpg" alt="Support avatar" fill className="object-cover" />
               </div>
             </div>
-            <h3 className="mb-4 text-center text-xl font-semibold">Disponibilité & réactivité</h3>
+            <h3 className="mb-4 text-center text-xl font-semibold">Accompagnement digital</h3>
             <p className="text-center text-sm text-gray-400">
-              Une équipe passionnée qui vous assure une prise en charge immédiate et une relation clientèle privilégiée.
+              Assistance personnalisée à chaque étape via chat, appels visio ou messagerie intégrée.
             </p>
           </div>
         </div>
+
 
         {/* Contact Form */}
         <div className="mx-auto max-w-6xl rounded-3xl border border-gray-800 p-8 md:p-12">
